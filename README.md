@@ -3,11 +3,11 @@
 
 A quadruped robot for a university capstone project. The associated CAD files can be found on [GrabCad](https://grabcad.com/library/quadruped-robot-w-code-1)
 ## Build
-wooden plank has laser cut file
-all other parts have stl files and a complete bamboo slicer file for everything needed
+wooden plank has laser cut file.
+all other parts have stl files and a complete bamboo slicer file for everything needed.
 most parts can be printed without suports, only ones requiring suports are the tibias. 
-shoulder servo is top 
-elbow servo is bottom
+shoulder servo is top.
+elbow servo is bottom.
 use files in arduino servo set to set servo position before legs and front camera mount are attached, 
 
 ## Installation
