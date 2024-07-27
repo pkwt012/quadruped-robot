@@ -2,6 +2,13 @@
 ![quadruped](https://user-images.githubusercontent.com/24850401/160302298-203e922e-81ea-4b7f-a4e0-efc720e2eb74.JPG)
 
 A quadruped robot for a university capstone project. The associated CAD files can be found on [GrabCad](https://grabcad.com/library/quadruped-robot-w-code-1)
+## Build
+wooden plank has laser cut file
+all other parts have stl files and a complete bamboo slicer file for everything needed
+most parts can be printed without suports, only ones requiring suports are the tibias. 
+shoulder servo is top 
+elbow servo is bottom
+use files in arduino servo set to set servo position before legs and front camera mount are attached, 
 
 ## Installation
 To use this code simply download the repository onto the raspberry pi, install the requirements, set up the pi for camera and the servo library usage, and run `python3 control-quadruped`. This will start the walking motion and print out the pi's IP and port. Run the controller on your computer, setting the IP and port given by the pi and the robot will start taking momentum data from the controller.
